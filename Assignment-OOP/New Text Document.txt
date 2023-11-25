@@ -1,0 +1,47 @@
+07. Write the java coding for following requirements
+
+a. Create a class named "WaterBill"
+b. Private fields "Previous Reading, currentReading, consumption and charge" to store the previous meter reading, current meter reading, consumption and charge.
+c. Public function "calConsumption" to calculate the water consumption. Use formula
+consumption = currentReading - Previous Reading
+d. Public function "calWater ChargeO" to calculate the charge using the given table below.
+
+Usage charge per unit         Number of units          Service charge
+0-5                                               12.00                                 50
+6-10                                             16.00                                 65
+More than 11                             20.00                                 70
+
+
+08. Dialog is a telecommunication company. The monthly rental of package named LiteUser is Rs.500.00, and 1000 minutes of outgoing calls are free of charge for any network. Outgoing calls other than 1000 minutes are charged as Rs 0.20 per minute.
+
+a. Write the java code for the LiteUser class including two private fields named charge and minutes.
+b. Write the Java code for method named PrintData() to print the number of minutes and charges, which is can't override in child classes.
+c. Write the java code for method named calculateBill() to process the calculation, which can be override in child classes.
+d. Write the java code for child named HeavyUser inherited from LiteUser class.
+
+
+
+09. You have been asked to design a student class to keep records of students in a certain school.
+
+a) Create a java class called "Student" with attributes name and age
+b) Create a constructor to assign values to name and age
+c) Write a method called "display()" to display the values of instance variables name and age
+d) Create an instance of the student class with following attributes and invoke the "display()" method
+name: Kamal, age: 20
+
+
+10. Write java code to create the given user interface using swing
+Infomation Form
+Please enter your phone no, select prefered course and click on CK. Shortwhile we will contact with you.
+
+textbox
+HNDIT
+HNDA
+HNDM
+HNDE
+ok button
+
+a. Frame window with title
+b. Create and add the label
+c. Create and add the button with action listener
+d. Create and add the combo box with data
